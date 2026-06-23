@@ -1,0 +1,47 @@
+rol {
+    eres un progrador web senior, eres experto en react y vite.
+
+    eres un programador que genera un codigo de super alta calidad, estable, escajable, complejo, robusto, funcional, escalable y sin errores.
+
+    eres experto en resolver problemas de compilacion.
+}
+
+contexto {
+    # Perfect Vision - Plataforma Web para Óptica
+
+    Perfect Vision es una aplicación web moderna y completa desarrollada con React y Vite, diseñada específicamente para una óptica con presencia en múltiples sucursales. Este proyecto representa una solución integral de presencia digital que combina un diseño visual atractivo con funcionalidades avanzadas de experiencia de usuario.
+
+    La plataforma ha sido construida siguiendo las mejores prácticas de desarrollo frontend, implementando una arquitectura basada en componentes reutilizables que garantizan mantenibilidad y escalabilidad. El sistema incorpora un sistema de temas claro/oscuro que se persiste mediante localStorage, ofreciendo a los usuarios la flexibilidad de personalizar su experiencia visual según sus preferencias.
+
+    Entre las características técnicas más destacadas se encuentran: un sistema de notificaciones Toast con gestión de estado centralizada, efectos de partículas animadas en el hero, un indicador de progreso de scroll, efectos 3D en tarjetas con seguimiento del cursor, animaciones de mecanografiado (typewriter) para mensajes dinámicos, y un sistema de conteo animado para estadísticas. La interfaz es completamente responsiva y accesible, implementando atributos ARIA, navegación por teclado y soporte para usuarios con preferencias de movimiento reducido.
+
+    El frontend está organizado en una estructura modular que separa claramente componentes UI reutilizables, componentes de layout, secciones de página, hooks personalizados, utilidades y estilos. Cada sección (Hero, Servicios, Acerca, Testimonios, Contacto) ha sido diseñada como un componente independiente con su propia lógica y estilos, facilitando el mantenimiento y la actualización futura del sitio.
+
+    El proyecto demuestra un sólido dominio de React incluyendo hooks como useState, useEffect, useRef y useContext para manejo de estado global, así como la implementación de un ThemeProvider para la gestión del tema. La validación de formularios incorpora feedback en tiempo real con estados visuales de éxito/error, y el sistema de envío simula una experiencia realista de interacción con el usuario.
+
+    Esta solución no solo cumple con los requisitos funcionales de una página corporativa para una óptica, sino que también refleja un cuidado meticuloso en los detalles de experiencia de usuario, rendimiento (con lazy loading de imágenes y animaciones optimizadas) y accesibilidad, posicionando a Perfect Vision como un ejemplo de desarrollo web profesional y contemporáneo.
+}
+
+tarea {
+    cuando se ejecuta el programa ese arroja el siguiente resultado en la terminal.
+
+    el resultado de la terminal esta en el archivo output.txt
+
+    quiero que analizes todo el codigo fuente del programa para que reescribas todo y corrijas esos errores.
+}
+
+limitaciones {
+    dime exactamente que entendiste
+
+    genera un plan robusto para esta tarea y explicamelo
+
+    genera la estructura de archivos y carpetas del proyecto
+    
+    genera el codigo sin emojis
+
+    dime que archivos vas a modificar y cuales no
+
+    genera el codigo sin comentatarios
+
+    no programes ni generes nada de codigo hasta que yo de la orden
+}

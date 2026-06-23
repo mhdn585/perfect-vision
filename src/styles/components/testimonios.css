@@ -1,0 +1,73 @@
+.testimonios {
+  padding: 80px 0;
+  background: var(--bg-light);
+  transition: background 0.5s ease;
+}
+
+.testimonios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background: var(--bg-white);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border-left: 4px solid var(--secondary);
+  animation: fadeInUp 0.8s ease both;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-card:nth-child(1) { animation-delay: 0.1s; }
+.testimonial-card:nth-child(2) { animation-delay: 0.2s; }
+.testimonial-card:nth-child(3) { animation-delay: 0.3s; }
+
+.testimonial-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: var(--shadow-hover);
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.testimonial-card cite {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+}
+
+.cite-name {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.cite-role {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.glass-effect {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+@media (max-width: 768px) {
+  .testimonios {
+    padding: 60px 0;
+  }
+
+  .testimonios-grid {
+    grid-template-columns: 1fr;
+  }
+}

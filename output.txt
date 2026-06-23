@@ -1,0 +1,1773 @@
+
+> mi-app-react@0.0.0 dev
+> vite
+
+
+  VITE v8.1.0  ready in 385 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./styles/globals.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx:4:7
+  2  |  import { createRoot } from "react-dom/client";
+  3  |  import App from "./App.jsx";
+  4  |  import "./styles/globals.css";
+     |          ^
+  5  |  import "./styles/variables.css";
+  6  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:37 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:38 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./styles/globals.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx:4:7
+  2  |  import { createRoot } from "react-dom/client";
+  3  |  import App from "./App.jsx";
+  4  |  import "./styles/globals.css";
+     |          ^
+  5  |  import "./styles/variables.css";
+  6  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:39 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] Internal server error: Failed to resolve import "./styles/globals.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx:4:7
+  2  |  import { createRoot } from "react-dom/client";
+  3  |  import App from "./App.jsx";
+  4  |  import "./styles/globals.css";
+     |          ^
+  5  |  import "./styles/variables.css";
+  6  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx";
+      at TransformPluginContext._formatLog (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:29914:39)
+      at TransformPluginContext.error (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:29911:14)
+      at normalizeUrl (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:26975:18)
+      at async file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:27038:30
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:27006:4)
+      at async EnvironmentPluginContainer.transform (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:29699:14)
+      at async loadAndTransform (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:19725:26)
+      at async viteTransformMiddleware (file:///home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/node_modules/vite/dist/node/chunks/node.js:24149:20)
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:40 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./styles/globals.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx:4:7
+  2  |  import { createRoot } from "react-dom/client";
+  3  |  import App from "./App.jsx";
+  4  |  import "./styles/globals.css";
+     |          ^
+  5  |  import "./styles/variables.css";
+  6  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/main.jsx";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Testimonios.css" from "src/components/sections/Testimonios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Testimonios.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Testimonios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Tes...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./components/sections/Contacto" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx:11:21
+  9  |  import Acerca from "./components/sections/Acerca";
+  10 |  import Testimonios from "./components/sections/Testimonios";
+  11 |  import Contacto from "./components/sections/Contacto";
+     |                        ^
+  12 |  import "./App.css";
+  13 |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/App.jsx";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ToastContainer.css" from "src/components/ui/ToastContainer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastContainer.jsx:3:7
+  1  |  import { useState, useEffect } from "react";
+  2  |  import Toast from "./Toast";
+  3  |  import "./ToastContainer.css";
+     |          ^
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/ToastCont...
+  5  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Header.css" from "src/components/layout/Header.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Header.jsx:3:7
+  1  |  import { useState, useRef, useEffect } from "react";
+  2  |  import { useTheme } from "../../hooks/useTheme";
+  3  |  import "./Header.css";
+     |          ^
+  4  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  5  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Heade...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/ProgressBar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/ProgressBar.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Progr...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./ProgressBar.css" from "src/components/layout/BackToTop.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackToTop.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./ProgressBar.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/BackT...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Footer.css" from "src/components/layout/Footer.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Footer.jsx:1:7
+  1  |  import "./Footer.css";
+     |          ^
+  2  |  import logoImg from "/imagenes/logos/logo-principal.png";
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/layout/Foote...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Hero.css" from "src/components/sections/Hero.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Hero.jsx:2:7
+  1  |  import { useEffect, useRef } from "react";
+  2  |  import "./Hero.css";
+     |          ^
+  3  |  import heroImg from "/imagenes/fotos/hero.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Her...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Servicios.css" from "src/components/sections/Servicios.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Servicios.jsx:2:7
+  1  |  import { useRef, useEffect } from "react";
+  2  |  import "./Servicios.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ser...
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Acerca.css" from "src/components/sections/Acerca.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Acerca.jsx:2:7
+  1  |  import { useEffect, useRef, useState } from "react";
+  2  |  import "./Acerca.css";
+     |          ^
+  3  |  import acercaImg from "/imagenes/fotos/acerca.jpg";
+  4  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/sections/Ace...
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+18:47:41 [vite] (client) Pre-transform error: Failed to resolve import "./Toast.css" from "src/components/ui/Toast.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx:2:7
+  1  |  import { useEffect, useState } from "react";
+  2  |  import "./Toast.css";
+     |          ^
+  3  |  var _jsxFileName = "/home/jean/programacion/web_trabajo/perfect_vision_react/mi-app-react/src/components/ui/Toast.jsx";
+  4  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";

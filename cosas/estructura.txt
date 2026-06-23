@@ -1,0 +1,63 @@
+perfect-vision-react/
+├── index.html
+├── package.json
+├── vite.config.js
+├── .eslintrc.cjs
+├── public/
+│   ├── icons.svg
+│   └── imagenes/
+│       ├── fotos/
+│       │   ├── hero.jpg
+│       │   └── acerca.jpg
+│       └── logos/
+│           └── logo-principal.png
+└── src/
+    ├── main.jsx
+    ├── App.jsx
+    ├── App.css
+    ├── index.css
+    ├── components/
+    │   ├── layout/
+    │   │   ├── Header.jsx
+    │   │   ├── Footer.jsx
+    │   │   ├── ProgressBar.jsx
+    │   │   └── BackToTop.jsx
+    │   ├── sections/
+    │   │   ├── Hero.jsx
+    │   │   ├── Servicios.jsx
+    │   │   ├── Acerca.jsx
+    │   │   ├── Testimonios.jsx
+    │   │   └── Contacto.jsx
+    │   ├── ui/
+    │   │   ├── Button.jsx
+    │   │   ├── Card.jsx
+    │   │   ├── Toast.jsx
+    │   │   └── ToastContainer.jsx
+    │   └── common/
+    │       ├── SectionTitle.jsx
+    │       └── ImageWrapper.jsx
+    ├── hooks/
+    │   ├── useTheme.js
+    │   ├── useScrollProgress.js
+    │   ├── useScrollSpy.js
+    │   ├── useIntersectionObserver.js
+    │   └── useReducedMotion.js
+    ├── context/
+    │   └── ThemeContext.jsx
+    ├── utils/
+    │   ├── validators.js
+    │   └── animations.js
+    └── styles/
+        ├── variables.css
+        ├── globals.css
+        ├── components/
+        │   ├── header.css
+        │   ├── footer.css
+        │   ├── hero.css
+        │   ├── servicios.css
+        │   ├── acerca.css
+        │   ├── testimonios.css
+        │   ├── contacto.css
+        │   └── ui.css
+        └── animations/
+            └── keyframes.css
