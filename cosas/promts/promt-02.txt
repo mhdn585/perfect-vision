@@ -1,0 +1,197 @@
+rol {
+    eres un programador senior web experto en react y en el desarrollo de landings pages y webs corporativas para negocios y empresas.
+
+    crear disenos extremadamentes modernos, bellos y con alto nivel de detalle, eres un programador que genera un codigo de super alta calidad, un codigo estable, funcional, escalable, complejo, robusto y sin errores.
+}
+
+contexto {
+    # Perfect Vision - Landing Page para Óptica
+
+    ## Contexto General del Proyecto
+
+    **Perfect Vision** es una landing page completa desarrollada para una óptica profesional, diseñada con React y un enfoque moderno en experiencia de usuario, accesibilidad y rendimiento. El proyecto representa una solución integral para la presencia digital de un negocio óptico, combinando una estética profesional con funcionalidades interactivas que mejoran la experiencia del usuario.
+
+    ## Arquitectura Técnica
+
+    ### Tecnologías y Herramientas
+    - **React 18+**: Framework principal para la construcción de la interfaz de usuario
+    - **CSS Modules y Variables CSS**: Sistema de diseño escalable y mantenible
+    - **Context API**: Manejo del estado global (tema claro/oscuro)
+    - **Custom Hooks**: Abstracción de lógica reutilizable
+    - **Intersection Observer**: Implementación de animaciones basadas en scroll
+
+    ### Estructura de Componentes
+    El proyecto sigue una arquitectura modular organizada en:
+    - **Componentes UI**: Elementos reutilizables (Button, Card, Toast)
+    - **Componentes Layout**: Estructura de la página (Header, Footer, ProgressBar)
+    - **Componentes Secciones**: Bloques de contenido (Hero, Servicios, Acerca, Testimonios, Contacto)
+    - **Hooks Personalizados**: Lógica encapsulada para funcionalidades específicas
+    - **Utils**: Funciones auxiliares para validación y animaciones
+
+    ## Características Principales
+
+    ### 1. Experiencia de Usuario Mejorada
+    - **Navegación Suave**: Scroll suave entre secciones con offset para header sticky
+    - **Menú Responsive**: Menú hamburguesa con cierre automático al hacer clic fuera
+    - **Barra de Progreso**: Indicador visual del progreso de scroll
+    - **Animaciones Contextuales**: Elementos que se animan al entrar en el viewport
+
+    ### 2. Sistema de Diseño Adaptable
+    - **Tema Claro/Oscuro**: Cambio dinámico con persistencia en localStorage
+    - **Diseño Responsive**: Adaptación a todos los tamaños de pantalla
+    - **Glassmorphism**: Efectos visuales modernos en tarjetas y elementos
+    - **Efectos 3D**: Interacción con tarjetas (tilt effect) para mayor engagement
+
+    ### 3. Funcionalidades Interactivas
+    - **Typewriter Effect**: Animación de texto en el hero que cambia automáticamente
+    - **Contador de Estadísticas**: Animación numérica en la sección "Acerca de"
+    - **Ripple Effect**: Feedback visual en botones al hacer clic
+    - **Partículas Flotantes**: Fondo animado en la sección hero
+
+    ### 4. Accesibilidad
+    - **ARIA Attributes**: Roles y etiquetas para lectores de pantalla
+    - **Keyboard Navigation**: Soporte completo para navegación por teclado
+    - **Focus Management**: Indicadores visuales de foco
+    - **Reduced Motion**: Respeto por preferencias de movimiento reducido
+
+    ### 5. Formulario de Contacto
+    - **Validación en Tiempo Real**: Feedback inmediato al usuario
+    - **Estados de Campo**: Visualización de error/éxito en inputs
+    - **Sistema de Toasts**: Notificaciones emergentes para feedback del usuario
+
+    ## Estilo y Diseño Visual
+
+    ### Paleta de Colores
+    - **Primario**: Blanco (#ffffff) para elementos principales
+    - **Secundario**: Verde (#27ae60) para acentos y acciones
+    - **Acentos**: Azul (#2980b9) para elementos informativos
+    - **Neutros**: Grises (#7f8c8d, #ecf0f1) para textos y fondos
+
+    ### Fuentes y Tipografía
+    - **Inter**: Fuente principal moderna y legible
+    - **Jerarquía Visual**: Títulos grandes, subtítulos descriptivos, textos de apoyo
+
+    ### Efectos Visuales
+    - **Sombras**: Capas de profundidad para elementos interactivos
+    - **Glassmorphism**: Transparencias y blur para efectos modernos
+    - **Gradientes**: Fondo degradado en secciones clave
+    - **Transiciones Suaves**: Animaciones CSS para interacciones fluidas
+
+    ## Secciones del Sitio
+
+    ### 1. Hero
+    - **Typewriter**: Texto dinámico que cambia automáticamente
+    - **Partículas**: Fondo animado con elementos flotantes
+    - **CTA Principal**: Botones para acción inmediata (cita, WhatsApp)
+    - **Información Rápida**: Horario, sucursales, contacto
+
+    ### 2. Servicios
+    - **Tarjetas 3D**: Efecto de inclinación al pasar el ratón
+    - **Iconos Emoji**: Representación visual de cada servicio
+    - **Grid Responsive**: Adaptación automática a diferentes pantallas
+
+    ### 3. Acerca de
+    - **Contador Animado**: Estadísticas que se activan al hacer scroll
+    - **Imagen con Overlay**: Efecto hover con texto descriptivo
+    - **Misión y Visión**: Texto que comunica los valores de la empresa
+
+    ### 4. Testimonios
+    - **Tarjetas Glassmorphism**: Efecto moderno de cristal
+    - **Citas en Bloque**: Presentación elegante de opiniones
+    - **Información de Clientes**: Nombre y rol del testimonio
+
+    ### 5. Contacto
+    - **Formulario Validado**: Feedback en tiempo real
+    - **Información de Contacto**: Ubicaciones, teléfono, horario
+    - **Redes Sociales**: Enlaces a WhatsApp e Instagram
+
+    ## Optimización y Rendimiento
+
+    ### Técnicas Implementadas
+    - **Lazy Loading**: Imágenes cargadas bajo demanda
+    - **Debounce**: Optimización de eventos de scroll
+    - **Memoización**: Prevención de renders innecesarios
+    - **CSS Optimizado**: Selectores específicos y clases modulares
+
+    ### SEO y Metadatos
+    - **Títulos Descriptivos**: Cada sección tiene títulos significativos
+    - **Imágenes con Alt**: Texto alternativo para accesibilidad y SEO
+    - **Estructura Semántica**: Uso correcto de etiquetas HTML5
+
+    ## Manejo de Estado
+
+    ### Context API
+    - **ThemeContext**: Gestión del tema claro/oscuro global
+    - **Toast System**: Sistema de notificaciones mediante eventos personalizados
+
+    ### Estado Local
+    - **Formulario**: Validación y estado de campos
+    - **UI**: Control de menú, animaciones y visibilidad
+
+    ## Metodologías y Patrones
+
+    ### Patrones de Diseño
+    - **Compound Components**: Componentes que trabajan juntos (ToastContainer/Toast)
+    - **Render Props**: Flexibilidad en la composición de componentes
+    - **Hooks Pattern**: Abstracción de lógica en custom hooks
+
+    ### Principios SOLID
+    - **Single Responsibility**: Componentes con una única función
+    - **Open/Closed**: Extensible mediante props y children
+    - **Liskov Substitution**: Componentes que pueden ser reemplazados sin afectar funcionalidad
+
+    ## Consideraciones de Seguridad
+
+    ### Prácticas Implementadas
+    - **Sanitización**: Validación de entradas de usuario en formularios
+    - **XSS Prevention**: Escapado de contenido dinámico
+    - **CSRF Protection**: Uso de tokens en formularios críticos
+
+    ## Pruebas y QA
+
+    ### Estrategia
+    - **Pruebas de Componentes**: Verificación de renderizado y eventos
+    - **Pruebas de Accesibilidad**: Uso de herramientas como axe y Lighthouse
+    - **Pruebas de Rendimiento**: Monitoreo de métricas Core Web Vitals
+
+    ## Mejoras Futuras y Roadmap
+
+    ### Funcionalidades Planeadas
+    1. **Backend Integration**: Conexión con API para envío de formularios
+    2. **Sistema de Citas**: Calendario interactivo para reservas
+    3. **Galería de Productos**: Catálogo visual de monturas
+    4. **Blog/Artículos**: Contenido educativo sobre salud visual
+    5. **Chatbot**: Asistente virtual para atención inmediata
+
+    ### Optimizaciones Propuestas
+    - **PWA**: Transformación en aplicación web progresiva
+    - **SSR/SSG**: Server Side Rendering para mejor SEO
+    - **CDN Integration**: Distribución de contenido optimizada
+    - **Analytics**: Seguimiento de comportamiento de usuarios
+
+    ## Conclusión
+
+    **Perfect Vision** representa una solución completa y profesional para la presencia digital de una óptica moderna. Combina diseño atractivo con funcionalidades robustas, priorizando la experiencia del usuario y la accesibilidad. El proyecto está estructurado para ser escalable, mantenible y fácil de extender, siguiendo las mejores prácticas de desarrollo web moderno.
+
+    La implementación demuestra un profundo entendimiento de las necesidades del negocio óptico, ofreciendo una plataforma que no solo informa sino que también convierte visitantes en clientes potenciales a través de llamadas a la acción estratégicas y un diseño que inspira confianza profesional.
+}
+
+tarea {
+    quiero que elimines todos los elementos que insertan fotos e imagenes a las web, quiero que la web no tenga fotos ni imagenes.
+}
+
+limitaciones {
+    dime exactamente que entendiste
+
+    genera un plan robusto para esta tarea y explicamelo
+
+    genera la estructura de archivos y carpetas del proyecto
+    
+    genera el codigo sin emojis
+
+    dime que archivos vas a modificar y cuales no
+
+    genera el codigo sin comentatarios
+
+    no programes ni generes nada de codigo hasta que yo de la orden
+}

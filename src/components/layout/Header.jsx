@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { useTheme } from '../../hooks/useTheme'
-import './Header.css'
-import logoImg from '/imagenes/logos/logo-principal.png'
+import '../../styles/components/header.css'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -29,7 +28,7 @@ function Header() {
       ) {
         setIsMenuOpen(false)
         menuToggleRef.current.setAttribute('aria-expanded', 'false')
-        menuToggleRef.current.setAttribute('aria-label', 'Abrir menú')
+        menuToggleRef.current.setAttribute('aria-label', 'Abrir men')
       }
     }
     document.addEventListener('click', handleClickOutside)
@@ -43,7 +42,7 @@ function Header() {
       menuToggleRef.current.setAttribute('aria-expanded', newState)
       menuToggleRef.current.setAttribute(
         'aria-label',
-        newState ? 'Cerrar menú' : 'Abrir menú'
+        newState ? 'Cerrar men' : 'Abrir men'
       )
     }
   }
@@ -60,7 +59,7 @@ function Header() {
       setIsMenuOpen(false)
       if (menuToggleRef.current) {
         menuToggleRef.current.setAttribute('aria-expanded', 'false')
-        menuToggleRef.current.setAttribute('aria-label', 'Abrir menú')
+        menuToggleRef.current.setAttribute('aria-label', 'Abrir men')
       }
     }
   }
@@ -69,16 +68,10 @@ function Header() {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`} id="header" role="banner">
       <div className="container header-container">
         <div className="logo">
-          <img
-            src={logoImg}
-            alt="Perfect Vision - Logotipo"
-            className="logo-img"
-            width="55"
-            height="55"
-          />
+          <span className="logo-icon" aria-hidden="true">👁</span>
           <span className="logo-text">Perfect Vision</span>
         </div>
-        <nav className={`nav ${isMenuOpen ? 'active' : ''}`} id="nav" ref={navRef} aria-label="Navegación principal">
+        <nav className={`nav ${isMenuOpen ? 'active' : ''}`} id="nav" ref={navRef} aria-label="Navegacin principal">
           <ul className="nav-list">
             <li>
               <a
@@ -131,7 +124,7 @@ function Header() {
             title="Cambiar tema claro/oscuro"
           >
             <span className="theme-icon" aria-hidden="true">
-              {theme === 'dark' ? '☀️' : '🌙'}
+              {theme === 'dark' ? '☀' : '🌙'}
             </span>
           </button>
           <button
@@ -139,7 +132,7 @@ function Header() {
             id="menuToggle"
             ref={menuToggleRef}
             onClick={toggleMenu}
-            aria-label="Abrir menú"
+            aria-label="Abrir men"
             aria-expanded="false"
           >
             <span className="bar"></span>

@@ -1,5 +1,4 @@
-import './Footer.css'
-import logoImg from '/imagenes/logos/logo-principal.png'
+import '../../styles/components/footer.css'
 
 function Footer() {
   const currentYear = new Date().getFullYear()
@@ -18,13 +17,8 @@ function Footer() {
     <footer className="footer" role="contentinfo">
       <div className="container footer-container">
         <div className="footer-brand">
-          <img
-            src={logoImg}
-            alt="Perfect Vision"
-            className="footer-logo"
-            width="45"
-            height="45"
-          />
+          <span className="footer-logo-icon" aria-hidden="true">👁</span>
+          <span className="footer-brand-name">Perfect Vision</span>
           <p>&copy; {currentYear} Perfect Vision - Todos los derechos reservados</p>
         </div>
         <div className="footer-links">

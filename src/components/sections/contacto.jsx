@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
-import './Contacto.css'
-import { isValidEmail } from '../utils/validators'
+import '../../styles/components/contacto.css'
+import { isValidEmail } from '../../utils/validators'
 
 function Contacto() {
   const [formData, setFormData] = useState({

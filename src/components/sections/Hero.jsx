@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react'
-import './Hero.css'
-import heroImg from '/imagenes/fotos/hero.jpg'
+import '../../styles/components/hero.css'
 
 function Hero() {
   const typewriterRef = useRef(null)
@@ -9,7 +8,7 @@ function Hero() {
   useEffect(() => {
     const texts = [
       'Cuida tu vista con los mejores',
-      'Visión clara, vida plena',
+      'Vision clara, vida plena',
       'Tu mirada es nuestra prioridad'
     ]
     let textIndex = 0
@@ -91,13 +90,13 @@ function Hero() {
       <div className="hero-particles" id="heroParticles" ref={particlesRef} aria-hidden="true"></div>
       <div className="container hero-container">
         <div className="hero-content">
-          <span className="hero-badge">5 años de experiencia</span>
+          <span className="hero-badge">5 anos de experiencia</span>
           <h1 id="hero-title" className="hero-title">
             <span className="typewriter" id="typewriter" ref={typewriterRef}>
               Cuida tu vista con los mejores
             </span>
           </h1>
-          <p className="hero-description">Exámenes completos y la mejor variedad de monturas</p>
+          <p className="hero-description">Examenes completos y la mejor variedad de monturas</p>
           <div className="hero-buttons">
             <a
               href="#contacto"
@@ -131,7 +130,7 @@ function Hero() {
           <div className="hero-info">
             <div className="info-item">
               <span className="info-label">Horario</span>
-              <span className="info-value">Lun-Sáb 8am a 5pm</span>
+              <span className="info-value">Lun-Sab 8am a 5pm</span>
             </div>
             <div className="info-item">
               <span className="info-label">Sucursales</span>
@@ -144,18 +143,11 @@ function Hero() {
           </div>
         </div>
         <div className="hero-image">
-          <div className="image-wrapper">
-            <img
-              src={heroImg}
-              alt="Óptica Perfect Vision - Instalaciones modernas"
-              className="hero-img"
-              loading="lazy"
-              width="600"
-              height="400"
-            />
-            <div className="image-overlay">
-              <span className="overlay-text">Calidad visual</span>
-            </div>
+          <div className="hero-decoration">
+            <div className="decoration-shape decoration-shape-1"></div>
+            <div className="decoration-shape decoration-shape-2"></div>
+            <div className="decoration-shape decoration-shape-3"></div>
+            <div className="decoration-text">Calidad Visual</div>
           </div>
         </div>
       </div>

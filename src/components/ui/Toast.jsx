@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './Toast.css'
+import '../../styles/components/toast.css'
 
 const icons = {
   success: '✅',

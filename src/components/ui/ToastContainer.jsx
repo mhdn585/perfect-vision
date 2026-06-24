@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Toast from './Toast'
-import './ToastContainer.css'
+import '../../styles/components/toast-container.css'
 
 function ToastContainer() {
   const [toasts, setToasts] = useState([])

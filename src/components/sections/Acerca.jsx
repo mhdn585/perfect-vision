@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import './Acerca.css'
-import acercaImg from '/imagenes/fotos/acerca.jpg'
+import '../../styles/components/acerca.css'
 
 function Acerca() {
   const [statsAnimated, setStatsAnimated] = useState(false)
@@ -47,18 +46,18 @@ function Acerca() {
           <div className="acerca-content">
             <h2 id="acerca-title" className="section-title">Sobre Nosotros</h2>
             <p>
-              En <strong>Perfect Vision</strong> llevamos más de 5 años cuidando la salud visual de nuestra comunidad. Somos una óptica comprometida con la excelencia, combinando tecnología de vanguardia con un trato cercano y personalizado.
+              En <strong>Perfect Vision</strong> llevamos mas de 5 anos cuidando la salud visual de nuestra comunidad. Somos una optica comprometida con la excelencia, combinando tecnologia de vanguardia con un trato cercano y personalizado.
             </p>
             <p>
-              Nuestro equipo de profesionales está capacitado para ofrecerte el mejor servicio en exámenes visuales, adaptación de lentes y asesoramiento en la elección de tus monturas. Trabajamos con las mejores marcas y garantizamos la más alta calidad en cada uno de nuestros productos.
+              Nuestro equipo de profesionales esta capacitado para ofrecerte el mejor servicio en examenes visuales, adaptacion de lentes y asesoramiento en la eleccion de tus monturas. Trabajamos con las mejores marcas y garantizamos la mas alta calidad en cada uno de nuestros productos.
             </p>
             <p>
-              Con sucursales estratégicamente ubicadas en Rattan Plaza, Juan Griego, Calle Igualdad y Galería Francia, estamos siempre cerca de ti para brindarte la atención que mereces.
+              Con sucursales estrategicamente ubicadas en Rattan Plaza, Juan Griego, Calle Igualdad y Galeria Francia, estamos siempre cerca de ti para brindarte la atencion que mereces.
             </p>
             <div className="acerca-stats" id="statsContainer" ref={statsRef}>
               <div className="stat" data-count="5">
                 <span className="stat-number" data-target="5" ref={(el) => (statNumbersRef.current[0] = el)}>0</span>
-                <span className="stat-label">Años de experiencia</span>
+                <span className="stat-label">Anos de experiencia</span>
               </div>
               <div className="stat" data-count="4">
                 <span className="stat-number" data-target="4" ref={(el) => (statNumbersRef.current[1] = el)}>0</span>
@@ -71,18 +70,11 @@ function Acerca() {
             </div>
           </div>
           <div className="acerca-image">
-            <div className="image-wrapper">
-              <img
-                src={acercaImg}
-                alt="Equipo de Perfect Vision - Profesionales de la salud visual"
-                className="acerca-img"
-                loading="lazy"
-                width="600"
-                height="400"
-              />
-              <div className="image-overlay">
-                <span className="overlay-text">Excelencia visual</span>
-              </div>
+            <div className="acerca-decoration">
+              <div className="decoration-circle decoration-circle-1"></div>
+              <div className="decoration-circle decoration-circle-2"></div>
+              <div className="decoration-circle decoration-circle-3"></div>
+              <div className="decoration-text">Excelencia visual</div>
             </div>
           </div>
         </div>

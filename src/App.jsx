@@ -8,7 +8,7 @@ import Hero from './components/sections/Hero'
 import Servicios from './components/sections/Servicios'
 import Acerca from './components/sections/Acerca'
 import Testimonios from './components/sections/Testimonios'
-import Contacto from './components/sections/Contacto'
+import Contacto from './components/sections/contacto'
 import './App.css'
 
 function App() {
