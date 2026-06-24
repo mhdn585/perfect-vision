@@ -17,6 +17,7 @@
   border-radius: var(--radius-lg);
   border: 1px solid var(--gray-light);
   animation: slideInLeft 0.8s ease both;
+  transition: background 0.5s ease, border-color 0.5s ease;
 }
 
 .contacto-details {
@@ -47,15 +48,18 @@
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 0.2rem;
+  letter-spacing: 0.5px;
 }
 
 .detail-item p {
   color: var(--text-dark);
+  transition: color 0.5s ease;
 }
 
 .detail-item a {
   color: var(--secondary);
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .detail-item a:hover {
@@ -88,16 +92,17 @@
   border-radius: var(--radius);
   font-family: var(--font-base);
   font-size: 1rem;
-  transition: var(--transition);
+  transition: all 0.3s ease;
   background: var(--bg-light);
   color: var(--text-dark);
+  outline: none;
 }
 
 .floating-label input:focus,
 .floating-label textarea:focus {
-  outline: none;
   border-color: var(--secondary);
-  box-shadow: 0 0 0 3px rgba(39,174,96,0.15);
+  box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.15);
+  background: var(--bg-white);
 }
 
 .floating-label input:focus + label,
@@ -113,12 +118,13 @@
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: var(--transition);
+  transition: all 0.3s ease;
   color: var(--text-muted);
   pointer-events: none;
   font-weight: 500;
   background: var(--bg-light);
   padding: 0 4px;
+  font-size: 1rem;
 }
 
 .floating-label textarea + label {
@@ -132,19 +138,26 @@
   top: 16px;
 }
 
+.floating-label textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
 .form-error {
   font-size: 0.8rem;
   color: #e74c3c;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
   height: 0;
   overflow: hidden;
+  visibility: hidden;
 }
 
 .form-group.error .form-error {
   opacity: 1;
   height: auto;
   margin-top: 4px;
+  visibility: visible;
 }
 
 .form-group.error input,
@@ -153,30 +166,100 @@
   animation: shake 0.4s ease;
 }
 
+.form-group.error input:focus,
+.form-group.error textarea:focus {
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.15);
+}
+
 .form-group.success input,
 .form-group.success textarea {
   border-color: var(--secondary);
+}
+
+.form-group.success input:focus,
+.form-group.success textarea:focus {
+  box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.15);
 }
 
 .social-links {
   display: flex;
   gap: 1rem;
   margin-top: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .social-links a {
-  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
   background: var(--secondary);
   color: var(--bg-white);
   border-radius: 4px;
   font-size: 0.85rem;
   font-weight: 500;
-  transition: var(--transition);
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .social-links a:hover {
   background: var(--secondary-dark);
   transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
+}
+
+.social-links a:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.submit-btn {
+  margin-top: 0.5rem;
+}
+
+[data-theme="dark"] .contacto-info {
+  background: rgba(26, 26, 46, 0.6);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] .floating-label input,
+[data-theme="dark"] .floating-label textarea {
+  background: rgba(26, 26, 46, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-light);
+}
+
+[data-theme="dark"] .floating-label input:focus,
+[data-theme="dark"] .floating-label textarea:focus {
+  background: rgba(26, 26, 46, 0.8);
+  border-color: var(--secondary-light);
+  box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.15);
+}
+
+[data-theme="dark"] .floating-label label {
+  background: rgba(26, 26, 46, 0.8);
+}
+
+[data-theme="dark"] .floating-label input:focus + label,
+[data-theme="dark"] .floating-label input:not(:placeholder-shown) + label,
+[data-theme="dark"] .floating-label textarea:focus + label,
+[data-theme="dark"] .floating-label textarea:not(:placeholder-shown) + label {
+  color: var(--secondary-light);
+}
+
+[data-theme="dark"] .social-links a {
+  background: var(--secondary-light);
+}
+
+[data-theme="dark"] .social-links a:hover {
+  background: var(--secondary-dark);
+}
+
+[data-theme="dark"] .detail-item a {
+  color: var(--secondary-light);
+}
+
+[data-theme="dark"] .detail-item a:hover {
+  color: var(--secondary);
 }
 
 @media (max-width: 1024px) {
@@ -194,15 +277,108 @@
   .contacto-info {
     padding: 1.5rem;
   }
+
+  .contacto-grid {
+    gap: 1.5rem;
+  }
+
+  .detail-item {
+    gap: 0.75rem;
+  }
+
+  .detail-icon {
+    font-size: 1.25rem;
+    width: 32px;
+  }
 }
 
 @media (max-width: 480px) {
+  .contacto {
+    padding: 40px 0;
+  }
+
+  .contacto-info {
+    padding: 1.25rem;
+  }
+
   .detail-item {
     flex-direction: column;
     gap: 0.3rem;
   }
 
+  .detail-icon {
+    font-size: 1.1rem;
+    width: auto;
+  }
+
   .social-links {
     flex-wrap: wrap;
+  }
+
+  .social-links a {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+  }
+
+  .floating-label input,
+  .floating-label textarea {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+  }
+
+  .floating-label label {
+    font-size: 0.9rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contacto-info,
+  .contact-form,
+  .detail-item,
+  .social-links a {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .detail-item:hover {
+    transform: none !important;
+  }
+
+  .social-links a:hover {
+    transform: none !important;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-8px);
+  }
+  75% {
+    transform: translateX(8px);
   }
 }

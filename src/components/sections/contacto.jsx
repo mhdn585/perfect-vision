@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react'
 import '../../styles/components/contacto.css'
 import { isValidEmail } from '../../utils/validators'
+import Button from '../ui/Button'
 
 function Contacto() {
   const [formData, setFormData] = useState({
@@ -211,10 +212,14 @@ function Contacto() {
                 {errors.mensaje || ''}
               </span>
             </div>
-            <button type="submit" className={`btn btn-primary btn-ripple ${isLoading ? 'loading' : ''}`} id="submitBtn" disabled={isLoading}>
-              <span className="btn-text">Enviar mensaje</span>
-              <span className="btn-spinner" aria-hidden="true"></span>
-            </button>
+            <Button
+              type="submit"
+              variant="primary"
+              isLoading={isLoading}
+              className="submit-btn"
+            >
+              Enviar mensaje
+            </Button>
           </form>
         </div>
       </div>
