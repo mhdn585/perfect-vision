@@ -25,19 +25,109 @@
   color: var(--secondary);
 }
 
-.acerca-image .acerca-img {
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow);
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  transition: var(--transition);
+.acerca-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   animation: slideInRight 0.8s ease both;
 }
 
-.acerca-image .acerca-img:hover {
+.acerca-decoration {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--glass-shadow);
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.acerca-decoration:hover {
   transform: scale(1.02);
-  box-shadow: var(--shadow-hover);
+  box-shadow: 0 20px 60px rgba(39, 174, 96, 0.15);
+}
+
+.decoration-circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: float 8s ease-in-out infinite;
+}
+
+.decoration-circle-1 {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, var(--secondary-light), var(--secondary));
+  top: -80px;
+  right: -80px;
+  animation-delay: 0s;
+}
+
+.decoration-circle-2 {
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, var(--accent-light), var(--accent));
+  bottom: -60px;
+  left: -60px;
+  animation-delay: 1.5s;
+}
+
+.decoration-circle-3 {
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, #f39c12, #e67e22);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-delay: 3s;
+  opacity: 0.2;
+}
+
+.decoration-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.decoration-icon {
+  font-size: 4rem;
+  line-height: 1;
+  filter: drop-shadow(0 4px 12px rgba(39, 174, 96, 0.3));
+}
+
+.decoration-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+[data-theme="dark"] .decoration-content {
+  background: rgba(26, 26, 46, 0.6);
+}
+
+[data-theme="dark"] .decoration-text {
+  color: var(--text-light);
 }
 
 .acerca-stats {
@@ -82,8 +172,32 @@
     gap: 3rem;
   }
 
-  .acerca-image .acerca-img {
+  .acerca-decoration {
     height: 300px;
+    max-width: 100%;
+  }
+
+  .decoration-circle-1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .decoration-circle-2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .decoration-circle-3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .decoration-icon {
+    font-size: 3.5rem;
+  }
+
+  .decoration-text {
+    font-size: 1.3rem;
   }
 }
 
@@ -92,8 +206,35 @@
     padding: 60px 0;
   }
 
-  .acerca-image .acerca-img {
+  .acerca-decoration {
     height: 250px;
+  }
+
+  .decoration-circle-1 {
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    right: -50px;
+  }
+
+  .decoration-circle-2 {
+    width: 120px;
+    height: 120px;
+    bottom: -40px;
+    left: -40px;
+  }
+
+  .decoration-circle-3 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .decoration-icon {
+    font-size: 3rem;
+  }
+
+  .decoration-text {
+    font-size: 1.1rem;
   }
 
   .acerca-stats {
@@ -102,11 +243,89 @@
 }
 
 @media (max-width: 480px) {
-  .acerca-image .acerca-img {
+  .acerca-decoration {
     height: 200px;
+  }
+
+  .decoration-circle-1 {
+    width: 120px;
+    height: 120px;
+    top: -30px;
+    right: -30px;
+  }
+
+  .decoration-circle-2 {
+    width: 90px;
+    height: 90px;
+    bottom: -30px;
+    left: -30px;
+  }
+
+  .decoration-circle-3 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .decoration-icon {
+    font-size: 2.5rem;
+  }
+
+  .decoration-text {
+    font-size: 1rem;
   }
 
   .acerca-stats {
     grid-template-columns: 1fr;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

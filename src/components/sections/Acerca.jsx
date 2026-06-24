@@ -74,7 +74,10 @@ function Acerca() {
               <div className="decoration-circle decoration-circle-1"></div>
               <div className="decoration-circle decoration-circle-2"></div>
               <div className="decoration-circle decoration-circle-3"></div>
-              <div className="decoration-text">Excelencia visual</div>
+              <div className="decoration-content">
+                <span className="decoration-icon" aria-hidden="true">👁️</span>
+                <span className="decoration-text">5+ anos de experiencia</span>
+              </div>
             </div>
           </div>
         </div>
