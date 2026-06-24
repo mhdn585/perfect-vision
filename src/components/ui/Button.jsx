@@ -1,5 +1,5 @@
-import { useRef } from 'react'
-import './Button.css'
+import { useRef } from 'react';
+import '../../styles/components/ui.css';
 
 function Button({
   children,
@@ -11,35 +11,40 @@ function Button({
   href,
   target,
   rel,
+  size = 'medium',
+  fullWidth = false,
   ...props
 }) {
-  const buttonRef = useRef(null)
+  const buttonRef = useRef(null);
 
   const handleRipple = (e) => {
-    const btn = buttonRef.current
-    if (!btn) return
-    const rect = btn.getBoundingClientRect()
-    const x = e.clientX - rect.left
-    const y = e.clientY - rect.top
-    const ripple = document.createElement('span')
-    ripple.className = 'ripple'
-    const size = Math.max(rect.width, rect.height)
-    ripple.style.width = ripple.style.height = size + 'px'
-    ripple.style.left = x - size / 2 + 'px'
-    ripple.style.top = y - size / 2 + 'px'
-    btn.appendChild(ripple)
+    const btn = buttonRef.current;
+    if (!btn) return;
+    const rect = btn.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const ripple = document.createElement('span');
+    ripple.className = 'ripple';
+    const size = Math.max(rect.width, rect.height);
+    ripple.style.width = ripple.style.height = size + 'px';
+    ripple.style.left = x - size / 2 + 'px';
+    ripple.style.top = y - size / 2 + 'px';
+    btn.appendChild(ripple);
     setTimeout(() => {
-      ripple.remove()
-    }, 600)
-  }
+      ripple.remove();
+    }, 600);
+  };
 
   const handleClick = (e) => {
-    if (isLoading) return
-    handleRipple(e)
-    if (onClick) onClick(e)
-  }
+    if (isLoading) return;
+    handleRipple(e);
+    if (onClick) onClick(e);
+  };
 
-  const btnClass = `btn btn-${variant} btn-ripple ${isLoading ? 'loading' : ''} ${className}`
+  const sizeClass = size === 'small' ? 'btn-small' : size === 'large' ? 'btn-large' : '';
+  const fullClass = fullWidth ? 'btn-full' : '';
+
+  const btnClass = `btn btn-${variant} btn-ripple ${isLoading ? 'loading' : ''} ${sizeClass} ${fullClass} ${className}`;
 
   if (href) {
     return (
@@ -54,7 +59,7 @@ function Button({
         <span className="btn-text">{children}</span>
         <span className="btn-spinner" aria-hidden="true"></span>
       </a>
-    )
+    );
   }
 
   return (
@@ -69,7 +74,7 @@ function Button({
       <span className="btn-text">{children}</span>
       <span className="btn-spinner" aria-hidden="true"></span>
     </button>
-  )
+  );
 }
 
-export default Button
+export default Button;

@@ -1,21 +1,26 @@
-import '../../styles/components/footer.css'
+import '../../styles/components/footer.css';
 
 function Footer() {
-  const currentYear = new Date().getFullYear()
+  const currentYear = new Date().getFullYear();
 
   const handleNavClick = (e, targetId) => {
-    e.preventDefault()
-    const target = document.querySelector(targetId)
+    e.preventDefault();
+    const target = document.querySelector(targetId);
     if (target) {
-      const offset = 80
-      const top = target.getBoundingClientRect().top + window.pageYOffset - offset
-      window.scrollTo({ top, behavior: 'smooth' })
+      const offset = 80;
+      const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
     }
-  }
+  };
 
   return (
     <footer className="footer" role="contentinfo">
-      <div className="container footer-container">
+      <div className="footer-bubbles" aria-hidden="true">
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+        <div className="bubble"></div>
+      </div>
+      <div className="footer-container">
         <div className="footer-brand">
           <span className="footer-logo-icon" aria-hidden="true">👁</span>
           <span className="footer-brand-name">Perfect Vision</span>
@@ -45,7 +50,7 @@ function Footer() {
             rel="noopener noreferrer"
             aria-label="WhatsApp"
           >
-            WhatsApp
+            <span>WhatsApp</span>
           </a>
           <a
             href="https://www.instagram.com/opticaperfectvission?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -53,12 +58,12 @@ function Footer() {
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-            Instagram
+            <span>Instagram</span>
           </a>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

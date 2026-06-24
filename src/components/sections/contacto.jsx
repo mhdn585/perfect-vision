@@ -1,7 +1,7 @@
-import { useState, useRef } from 'react'
-import '../../styles/components/contacto.css'
-import { isValidEmail } from '../../utils/validators'
-import Button from '../ui/Button'
+import { useState, useRef } from 'react';
+import '../../styles/components/contacto.css';
+import { isValidEmail } from '../../utils/validators';
+import Button from '../ui/Button';
 
 function Contacto() {
   const [formData, setFormData] = useState({
@@ -9,107 +9,107 @@ function Contacto() {
     email: '',
     telefono: '',
     mensaje: ''
-  })
-  const [errors, setErrors] = useState({})
-  const [isLoading, setIsLoading] = useState(false)
-  const [touched, setTouched] = useState({})
-  const formRef = useRef(null)
+  });
+  const [errors, setErrors] = useState({});
+  const [isLoading, setIsLoading] = useState(false);
+  const [touched, setTouched] = useState({});
+  const formRef = useRef(null);
 
   const validateField = (name, value) => {
     if (name === 'nombre') {
-      if (!value.trim()) return 'Por favor ingresa tu nombre'
-      return ''
+      if (!value.trim()) return 'Por favor ingresa tu nombre';
+      return '';
     }
     if (name === 'email') {
-      if (!value.trim()) return 'Por favor ingresa tu email'
-      if (!isValidEmail(value.trim())) return 'Por favor ingresa un email válido'
-      return ''
+      if (!value.trim()) return 'Por favor ingresa tu email';
+      if (!isValidEmail(value.trim())) return 'Por favor ingresa un email válido';
+      return '';
     }
     if (name === 'mensaje') {
-      if (!value.trim()) return 'Por favor ingresa tu mensaje'
-      return ''
+      if (!value.trim()) return 'Por favor ingresa tu mensaje';
+      return '';
     }
-    return ''
-  }
+    return '';
+  };
 
   const handleChange = (e) => {
-    const { id, value } = e.target
-    setFormData(prev => ({ ...prev, [id]: value }))
+    const { id, value } = e.target;
+    setFormData(prev => ({ ...prev, [id]: value }));
     
     if (touched[id]) {
-      const error = validateField(id, value)
-      setErrors(prev => ({ ...prev, [id]: error }))
+      const error = validateField(id, value);
+      setErrors(prev => ({ ...prev, [id]: error }));
     }
-  }
+  };
 
   const handleBlur = (e) => {
-    const { id, value } = e.target
-    setTouched(prev => ({ ...prev, [id]: true }))
-    const error = validateField(id, value)
-    setErrors(prev => ({ ...prev, [id]: error }))
-  }
+    const { id, value } = e.target;
+    setTouched(prev => ({ ...prev, [id]: true }));
+    const error = validateField(id, value);
+    setErrors(prev => ({ ...prev, [id]: error }));
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     
-    const newErrors = {}
-    let isValid = true
+    const newErrors = {};
+    let isValid = true;
     
     Object.keys(formData).forEach(key => {
-      if (key === 'telefono') return
-      const error = validateField(key, formData[key])
+      if (key === 'telefono') return;
+      const error = validateField(key, formData[key]);
       if (error) {
-        newErrors[key] = error
-        isValid = false
+        newErrors[key] = error;
+        isValid = false;
       }
-    })
+    });
     
-    setErrors(newErrors)
+    setErrors(newErrors);
     setTouched({
       nombre: true,
       email: true,
       mensaje: true
-    })
+    });
     
     if (!isValid) {
-      showToast('Por favor corrige los campos marcados', 'error')
-      return
+      showToast('Por favor corrige los campos marcados', 'error');
+      return;
     }
     
-    setIsLoading(true)
+    setIsLoading(true);
     
     setTimeout(() => {
-      setIsLoading(false)
-      showToast('¡Mensaje enviado con éxito! Te contactaremos pronto.', 'success')
+      setIsLoading(false);
+      showToast('¡Mensaje enviado con éxito! Te contactaremos pronto.', 'success');
       setFormData({
         nombre: '',
         email: '',
         telefono: '',
         mensaje: ''
-      })
-      setErrors({})
-      setTouched({})
-    }, 1500)
-  }
+      });
+      setErrors({});
+      setTouched({});
+    }, 1500);
+  };
 
   const showToast = (message, type) => {
     const event = new CustomEvent('showToast', {
       detail: { message, type }
-    })
-    window.dispatchEvent(event)
-  }
+    });
+    window.dispatchEvent(event);
+  };
 
   const getFieldStatus = (fieldName) => {
-    if (!touched[fieldName]) return ''
-    if (errors[fieldName]) return 'error'
-    if (formData[fieldName].trim()) return 'success'
-    return ''
-  }
+    if (!touched[fieldName]) return '';
+    if (errors[fieldName]) return 'error';
+    if (formData[fieldName].trim()) return 'success';
+    return '';
+  };
 
   return (
     <section id="contacto" className="contacto" aria-labelledby="contacto-title">
       <div className="container">
-        <h2 id="contacto-title" className="section-title">Contáctanos</h2>
+        <h2 id="contacto-title" className="section-title glass-title">Contáctanos</h2>
         <p className="section-subtitle">Pide tu cita o escríbenos para más información</p>
         <div className="contacto-grid">
           <div className="contacto-info glass-effect">
@@ -242,7 +242,7 @@ function Contacto() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Contacto
+export default Contacto;

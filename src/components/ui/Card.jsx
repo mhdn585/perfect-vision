@@ -1,4 +1,4 @@
-import './Card.css'
+import './Card.css';
 
 function Card({
   children,
@@ -8,9 +8,10 @@ function Card({
   className = '',
   tilt = false,
   glow = false,
+  glass = false,
   ...props
 }) {
-  const cardClassName = `card ${tilt ? 'card-3d' : ''} ${glow ? 'card-glow-container' : ''} ${className}`
+  const cardClassName = `card ${tilt ? 'card-3d' : ''} ${glow ? 'card-glow-container' : ''} ${glass ? 'glass-card' : ''} ${className}`;
 
   return (
     <article className={cardClassName} {...props}>
@@ -24,7 +25,7 @@ function Card({
       {description && <p>{description}</p>}
       {children}
     </article>
-  )
+  );
 }
 
-export default Card
+export default Card;

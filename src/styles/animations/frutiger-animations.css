@@ -1,0 +1,461 @@
+@keyframes floatBubble {
+  0%, 100% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px) scale(1.05);
+  }
+  50% {
+    transform: translateY(-35px) translateX(-5px) scale(1.02);
+  }
+  75% {
+    transform: translateY(-15px) translateX(15px) scale(0.98);
+  }
+}
+
+@keyframes floatBubbleReverse {
+  0%, 100% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  25% {
+    transform: translateY(20px) translateX(-10px) scale(0.95);
+  }
+  50% {
+    transform: translateY(35px) translateX(5px) scale(0.98);
+  }
+  75% {
+    transform: translateY(15px) translateX(-15px) scale(1.02);
+  }
+}
+
+@keyframes shineSweep {
+  0% {
+    transform: rotate(25deg) translateX(-100%) scale(1);
+  }
+  100% {
+    transform: rotate(25deg) translateX(100%) scale(1);
+  }
+}
+
+@keyframes shineSweepVertical {
+  0% {
+    transform: rotate(-25deg) translateY(-100%) scale(1);
+  }
+  100% {
+    transform: rotate(-25deg) translateY(100%) scale(1);
+  }
+}
+
+@keyframes glassPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.03);
+  }
+}
+
+@keyframes glassGlow {
+  0%, 100% {
+    box-shadow: 0 8px 32px rgba(74, 144, 217, 0.06);
+  }
+  50% {
+    box-shadow: 0 8px 48px rgba(74, 144, 217, 0.12);
+  }
+}
+
+[data-theme="dark"] @keyframes glassGlow {
+  0%, 100% {
+    box-shadow: 0 8px 32px rgba(74, 144, 217, 0.03);
+  }
+  50% {
+    box-shadow: 0 8px 48px rgba(74, 144, 217, 0.06);
+  }
+}
+
+@keyframes rippleGlass {
+  0% {
+    transform: scale(0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+@keyframes textShine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes gradientFloat {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes particleDrift {
+  0% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0.15;
+  }
+  25% {
+    transform: translateY(-30px) translateX(15px) rotate(90deg);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-60px) translateX(-10px) rotate(180deg);
+    opacity: 0.15;
+  }
+  75% {
+    transform: translateY(-30px) translateX(20px) rotate(270deg);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(0) translateX(0) rotate(360deg);
+    opacity: 0.15;
+  }
+}
+
+@keyframes rippleSoft {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes slideUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes slideLeftFade {
+  0% {
+    opacity: 0;
+    transform: translateX(30px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slideRightFade {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes scaleFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateFade {
+  0% {
+    opacity: 0;
+    transform: rotate(-10deg) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes blurFade {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes pulseSoft {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+}
+
+.animate-float {
+  animation: floatBubble var(--duration, 6s) ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatBubbleReverse var(--duration, 8s) ease-in-out infinite;
+}
+
+.animate-shine {
+  animation: shineSweep 1.2s ease-in-out forwards;
+}
+
+.animate-shine-vertical {
+  animation: shineSweepVertical 1.2s ease-in-out forwards;
+}
+
+.animate-pulse-glass {
+  animation: glassPulse 3s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glassGlow 3s ease-in-out infinite;
+}
+
+.animate-text-shine {
+  animation: textShine 4s ease-in-out infinite;
+  background-size: 200% 100%;
+}
+
+.animate-gradient-float {
+  animation: gradientFloat 8s ease-in-out infinite;
+  background-size: 200% 200%;
+}
+
+.animate-particle {
+  animation: particleDrift var(--duration, 12s) linear infinite;
+}
+
+.animate-ripple-soft {
+  animation: rippleSoft 2s ease-out infinite;
+}
+
+.animate-slide-up {
+  animation: slideUpFade 0.6s ease both;
+}
+
+.animate-slide-down {
+  animation: slideDownFade 0.6s ease both;
+}
+
+.animate-slide-left {
+  animation: slideLeftFade 0.6s ease both;
+}
+
+.animate-slide-right {
+  animation: slideRightFade 0.6s ease both;
+}
+
+.animate-scale {
+  animation: scaleFade 0.5s ease both;
+}
+
+.animate-rotate {
+  animation: rotateFade 0.6s ease both;
+}
+
+.animate-blur {
+  animation: blurFade 0.7s ease both;
+}
+
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+  background-size: 200% 100%;
+}
+
+.animate-pulse-soft {
+  animation: pulseSoft 2s ease-in-out infinite;
+}
+
+.animate-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-2 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-3 {
+  animation-delay: 0.3s;
+}
+
+.animate-delay-4 {
+  animation-delay: 0.4s;
+}
+
+.animate-delay-5 {
+  animation-delay: 0.5s;
+}
+
+.animate-delay-6 {
+  animation-delay: 0.6s;
+}
+
+.animate-delay-7 {
+  animation-delay: 0.7s;
+}
+
+.animate-delay-8 {
+  animation-delay: 0.8s;
+}
+
+.animate-delay-9 {
+  animation-delay: 0.9s;
+}
+
+.animate-delay-10 {
+  animation-delay: 1s;
+}
+
+.animate-duration-1 {
+  animation-duration: 1s;
+}
+
+.animate-duration-2 {
+  animation-duration: 2s;
+}
+
+.animate-duration-3 {
+  animation-duration: 3s;
+}
+
+.animate-duration-4 {
+  animation-duration: 4s;
+}
+
+.animate-duration-5 {
+  animation-duration: 5s;
+}
+
+.animate-duration-6 {
+  animation-duration: 6s;
+}
+
+.animate-duration-8 {
+  animation-duration: 8s;
+}
+
+.animate-duration-10 {
+  animation-duration: 10s;
+}
+
+.animate-duration-12 {
+  animation-duration: 12s;
+}
+
+.animate-duration-15 {
+  animation-duration: 15s;
+}
+
+.animate-iteration-1 {
+  animation-iteration-count: 1;
+}
+
+.animate-iteration-infinite {
+  animation-iteration-count: infinite;
+}
+
+.animate-fill-forwards {
+  animation-fill-mode: forwards;
+}
+
+.animate-fill-both {
+  animation-fill-mode: both;
+}
+
+.animate-paused {
+  animation-play-state: paused;
+}
+
+.animate-running {
+  animation-play-state: running;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-float-reverse,
+  .animate-pulse-glass,
+  .animate-glow,
+  .animate-text-shine,
+  .animate-gradient-float,
+  .animate-particle,
+  .animate-ripple-soft,
+  .animate-shimmer,
+  .animate-pulse-soft {
+    animation: none !important;
+  }
+
+  .animate-slide-up,
+  .animate-slide-down,
+  .animate-slide-left,
+  .animate-slide-right,
+  .animate-scale,
+  .animate-rotate,
+  .animate-blur {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .animate-shine,
+  .animate-shine-vertical {
+    animation: none !important;
+  }
+}

@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react'
-import '../../styles/components/testimonios.css'
+import { useEffect, useRef } from 'react';
+import '../../styles/components/testimonios.css';
 
 const testimoniosData = [
   {
@@ -20,50 +20,50 @@ const testimoniosData = [
     name: 'Ana Martínez',
     role: 'Cliente desde 2022'
   }
-]
+];
 
 function Testimonios() {
-  const cardRefs = useRef([])
+  const cardRefs = useRef([]);
 
   useEffect(() => {
-    const cards = cardRefs.current
+    const cards = cardRefs.current;
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.style.animationPlayState = 'running'
+            entry.target.style.animationPlayState = 'running';
           }
-        })
+        });
       },
       { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
-    )
+    );
     cards.forEach((card) => {
       if (card) {
-        card.style.animationPlayState = 'paused'
-        observer.observe(card)
+        card.style.animationPlayState = 'paused';
+        observer.observe(card);
       }
-    })
+    });
     setTimeout(() => {
       cards.forEach((card) => {
         if (card) {
-          const rect = card.getBoundingClientRect()
+          const rect = card.getBoundingClientRect();
           if (rect.top < window.innerHeight - 50 && rect.bottom > 0) {
-            card.style.animationPlayState = 'running'
+            card.style.animationPlayState = 'running';
           }
         }
-      })
-    }, 200)
+      });
+    }, 200);
     return () => {
       cards.forEach((card) => {
-        if (card) observer.unobserve(card)
-      })
-    }
-  }, [])
+        if (card) observer.unobserve(card);
+      });
+    };
+  }, []);
 
   return (
     <section id="testimonios" className="testimonios" aria-labelledby="testimonios-title">
       <div className="container">
-        <h2 id="testimonios-title" className="section-title">Lo que dicen nuestros clientes</h2>
+        <h2 id="testimonios-title" className="section-title glass-title">Lo que dicen nuestros clientes</h2>
         <p className="section-subtitle">La opinión de quienes confían en nosotros</p>
         <div className="testimonios-grid">
           {testimoniosData.map((testimonio, index) => (
@@ -73,6 +73,9 @@ function Testimonios() {
               ref={(el) => (cardRefs.current[index] = el)}
               style={{ animationDelay: `${(index + 1) * 0.1}s` }}
             >
+              <div className="card-bubble" aria-hidden="true"></div>
+              <div className="card-bubble" aria-hidden="true"></div>
+              <div className="quote-icon" aria-hidden="true">"</div>
               <p>{testimonio.text}</p>
               <cite>
                 <span className="cite-name">{testimonio.name}</span>
@@ -83,7 +86,7 @@ function Testimonios() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Testimonios
+export default Testimonios;
