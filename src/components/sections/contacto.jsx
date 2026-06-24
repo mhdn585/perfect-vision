@@ -140,8 +140,26 @@ function Contacto() {
                 <div>
                   <h4>Redes sociales</h4>
                   <div className="social-links">
-                    <a href="https://wa.me/c/584264869006" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WhatsApp</a>
-                    <a href="https://www.instagram.com/opticaperfectvission?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+                    <Button
+                      href="https://wa.me/c/584264869006"
+                      variant="whatsapp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="WhatsApp"
+                      className="social-btn"
+                    >
+                      WhatsApp
+                    </Button>
+                    <Button
+                      href="https://www.instagram.com/opticaperfectvission?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                      variant="whatsapp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instagram"
+                      className="social-btn"
+                    >
+                      Instagram
+                    </Button>
                   </div>
                 </div>
               </div>
